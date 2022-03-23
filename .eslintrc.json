@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "airbnb-base",
+    "next",
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "plugins": ["react", "import", "react-hooks"],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-use-before-define": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off",
+    "react/prop-types": 0,
+    "react-hooks/exhaustive-deps": "off"
+  }
+}
