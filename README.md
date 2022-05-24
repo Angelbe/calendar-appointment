@@ -21,3 +21,13 @@ npm run start
 yarn build
 yarn start
 ```
+Tech stack:
+React
+Next
+Moment
+reactjs-popup
+Styled Components
+SVGR
+Axios
+ESlint
+Prettier
